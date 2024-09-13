@@ -1,8 +1,5 @@
-nombre=input("Ingrese su nombre: ").upper()
-sexo=input("Ingrese (F) para femenino y (M) para masculino:").upper()
-if sexo=="F" and nombre[0]<"M":
-    print("Grupo A")
-elif sexo=="M" and nombre[0]>"N":
-    print("Grupo A")
+nombre, sexo =str(input("Ingrese su nombre y su sexo: ")).upper().split()
+if nombre[0] < "M" and sexo == "FEMENINO" or nombre[0] > "N" and sexo == "MASCULINO":
+    print("A usted le corresponde el grupo A")
 else:
-    print("Grupo B")
+    print("A ustes le corresponde el grupo B")
