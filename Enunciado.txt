@@ -1,0 +1,6 @@
+Escribe un programa en Python que simule un sistema de calificaciones para un curso. El programa debe solicitar al usuario ingresar la calificación de un estudiante (un número entre 0 y 100) y luego determinar la letra correspondiente según la siguiente escala:
+_90-100: A
+_80-89: B
+_70-79: C
+_60-69: D
+_0-59: F
