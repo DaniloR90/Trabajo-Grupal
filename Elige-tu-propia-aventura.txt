@@ -1,0 +1,1 @@
+Crea un pequeño juego donde narres una historia, “estilo elige tu propia aventura”, con un principio, dos o mas caminos a seguir, y uno o varios finales del juego.
